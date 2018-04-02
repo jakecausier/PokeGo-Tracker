@@ -1,0 +1,146 @@
+
+.display-container {
+  margin: 4em 0;
+}
+
+.entry-container {
+  margin: 0 0 2em 0;
+}
+
+  .entry-option {
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    border: 1px solid black;
+    -webkit-border-radius: 2px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius: 2px;
+    -moz-border-radius-topright: 20px;
+    border-radius: 2px;
+    border-top-right-radius: 20px;
+    width: 50px;
+    height: auto;
+    background: #FFF;
+    z-index: 300;
+  }
+
+.navbar .row {
+  width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 1px) {
+
+  .entry-counter {
+      text-align: center;
+    }
+
+   .entry-mode {
+     text-align: center;
+   }
+
+  .pokemon-entry {
+    padding: 2px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .blank {
+    background: #FFF;
+    padding: 2px;
+    border: 1px solid #d8d8d8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .caught {
+    background: #b5e61d;
+    padding: 2px;
+    border: 1px solid #92af37;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .evolve {
+    background: #99d9ea;
+    padding: 2px;
+    border: 1px solid #409db6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .exclusive {
+    background: #fff200;
+    padding: 2px;
+    border: 1px solid #c6bf3a;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .entry-counter {
+      text-align: left;
+    }
+
+   .entry-mode {
+     text-align: right;
+   }
+
+  .pokemon-entry {
+    padding: 10px;
+    border: 1px solid black;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  .blank {
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  .caught {
+    background: #b5e61d;
+    padding: 10px;
+    border: 1px solid #92af37;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  .evolve {
+    background: #99d9ea;
+    padding: 10px;
+    border: 1px solid #409db6;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  .exclusive {
+    background: #fff200;
+    padding: 10px;
+    border: 1px solid #c6bf3a;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+}
